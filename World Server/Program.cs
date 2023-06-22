@@ -47,7 +47,7 @@ namespace Meteor.World
 
 #if DEBUG
             TextWriterTraceListener myWriter = new TextWriterTraceListener(System.Console.Out);
-            Debug.Listeners.Add(myWriter);
+            Trace.Listeners.Add(myWriter);
 
             if (System.Diagnostics.Debugger.IsAttached)
             {

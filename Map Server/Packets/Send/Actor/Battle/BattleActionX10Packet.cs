@@ -19,7 +19,7 @@ along with Project Meteor Server. If not, see <https:www.gnu.org/licenses/>.
 ===========================================================================
 */
 
-using FFXIVClassic.Common;
+using Meteor.Common;
 using System;
 using System.IO;
 

@@ -39,7 +39,7 @@ namespace Meteor.Lobby
             Log = LogManager.GetCurrentClassLogger();
 #if DEBUG
             TextWriterTraceListener myWriter = new TextWriterTraceListener(System.Console.Out);
-            Debug.Listeners.Add(myWriter);
+            Trace.Listeners.Add(myWriter);
 #endif
             Log.Info("==================================");
             Log.Info("Project Meteor: Lobby Server");

@@ -19,4 +19,4 @@ CREATE TABLE `characters_quest_scenario` (
   `questData` longtext,
   `questFlags` int(10) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`characterId`,`slot`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

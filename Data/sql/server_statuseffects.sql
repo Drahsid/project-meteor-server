@@ -34,7 +34,7 @@ CREATE TABLE `server_statuseffects` (
   `statusGainTextId` smallint(6) NOT NULL DEFAULT '30328',
   `statusLossTextId` int(11) NOT NULL DEFAULT '30331',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

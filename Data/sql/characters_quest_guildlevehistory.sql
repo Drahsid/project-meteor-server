@@ -28,7 +28,7 @@ CREATE TABLE `characters_quest_guildlevehistory` (
   `questId` int(10) unsigned NOT NULL,
   `timeCompleted` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

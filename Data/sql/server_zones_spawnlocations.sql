@@ -21,7 +21,7 @@ CREATE TABLE `server_zones_spawnlocations` (
   `spawnZ` float NOT NULL,
   `spawnRotation` float NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records 

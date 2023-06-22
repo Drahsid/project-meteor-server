@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS `gamedata_items_graphics` (
   `variantId` int(10) unsigned NOT NULL,
   `colorId` int(10) unsigned NOT NULL,
   PRIMARY KEY (`catalogID`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- Dumping data for table ffxiv_server.gamedata_items_graphics: ~4,098 rows (approximately)
 /*!40000 ALTER TABLE `gamedata_items_graphics` DISABLE KEYS */;

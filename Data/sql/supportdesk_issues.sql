@@ -15,7 +15,7 @@ CREATE TABLE `supportdesk_issues` (
   `slot` smallint(4) unsigned NOT NULL,
   `title` varchar(50) NOT NULL,
   PRIMARY KEY (`slot`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records 

@@ -28,7 +28,7 @@ CREATE TABLE `characters_npclinkshell` (
   `isCalling` tinyint(1) unsigned NOT NULL DEFAULT '0',
   `isExtra` tinyint(1) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`characterId`,`npcLinkshellId`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

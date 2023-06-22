@@ -18,7 +18,7 @@ CREATE TABLE `gamedata_actor_class` (
   `propertyFlags` int(10) unsigned NOT NULL DEFAULT '0',
   `eventConditions` longtext,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records 

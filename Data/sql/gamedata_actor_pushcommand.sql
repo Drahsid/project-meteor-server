@@ -17,7 +17,7 @@ CREATE TABLE `gamedata_actor_pushcommand` (
   `pushCommandSub` smallint(6) NOT NULL DEFAULT '0',
   `pushCommandPriority` tinyint(3) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records 

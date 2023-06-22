@@ -30,7 +30,7 @@ CREATE TABLE `server_battle_traits` (
   `modifier` int(11) NOT NULL DEFAULT '0',
   `bonus` smallint(6) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

@@ -30,7 +30,7 @@ CREATE TABLE `characters_quest_guildleve_local` (
   `abandoned` tinyint(1) unsigned DEFAULT '0',
   `completed` tinyint(1) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

@@ -19,7 +19,7 @@ CREATE TABLE `supportdesk_tickets` (
   `langCode` smallint(4) unsigned NOT NULL,
   `isOpen` tinyint(1) unsigned NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records 

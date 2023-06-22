@@ -40,7 +40,7 @@ CREATE TABLE `server_zones` (
   `isInstanceRaid` tinyint(1) unsigned DEFAULT '0',
   `loadNavMesh` tinyint(1) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

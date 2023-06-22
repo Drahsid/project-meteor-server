@@ -17,7 +17,7 @@ CREATE TABLE `gamedata_items_graphics_extra` (
   `offHandEquipmentId` int(10) unsigned NOT NULL DEFAULT '0',
   `offHandVarientId` int(10) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`catalogID`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records 

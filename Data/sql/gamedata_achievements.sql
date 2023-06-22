@@ -30,7 +30,7 @@ CREATE TABLE `gamedata_achievements` (
   `packetOffsetId` smallint(5) unsigned NOT NULL,
   `rewardPoints` smallint(5) unsigned NOT NULL,
   PRIMARY KEY (`achievementId`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

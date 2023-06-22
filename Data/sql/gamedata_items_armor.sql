@@ -40,7 +40,7 @@ CREATE TABLE `gamedata_items_armor` (
   `damageDefenseType4` int(11) NOT NULL,
   `damageDefenseValue4` smallint(6) NOT NULL,
   PRIMARY KEY (`catalogID`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

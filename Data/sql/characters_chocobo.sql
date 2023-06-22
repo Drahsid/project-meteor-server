@@ -29,7 +29,7 @@ CREATE TABLE `characters_chocobo` (
   `chocoboAppearance` tinyint(3) unsigned DEFAULT NULL,
   `chocoboName` varchar(255) DEFAULT '',
   PRIMARY KEY (`characterId`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

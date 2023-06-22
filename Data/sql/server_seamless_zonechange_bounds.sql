@@ -31,7 +31,7 @@ CREATE TABLE `server_seamless_zonechange_bounds` (
   `merge_boundingbox_x2` float NOT NULL,
   `merge_boundingbox_y2` float NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records 

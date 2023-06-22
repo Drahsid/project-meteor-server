@@ -31,7 +31,7 @@ CREATE TABLE `characters_statuseffect` (
   `tier` tinyint(3) unsigned NOT NULL,
   `extra` bigint(20) unsigned NOT NULL,
   PRIMARY KEY (`characterId`,`statusId`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

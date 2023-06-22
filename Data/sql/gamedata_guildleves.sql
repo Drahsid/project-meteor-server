@@ -40,7 +40,7 @@ CREATE TABLE `gamedata_guildleves` (
   `mob3` int(10) unsigned NOT NULL DEFAULT '0',
   `mob4` int(10) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records 

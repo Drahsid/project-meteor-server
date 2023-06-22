@@ -21,7 +21,7 @@ CREATE TABLE `server_zones_privateareas` (
   `nightMusic` smallint(6) unsigned DEFAULT '0',
   `battleMusic` smallint(6) unsigned DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records 
